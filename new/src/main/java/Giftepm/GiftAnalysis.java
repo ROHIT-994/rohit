@@ -118,7 +118,7 @@ public class GiftAnalysis {
 		   while(candyIterator.hasNext())
 		   {
 			   Map.Entry candyElement=(Map.Entry)candyIterator.next();
-			   int currentPrice=(int)candyElement.getValue();
+			   int currentPrice=(Integer)candyElement.getValue();
 			   if(currentPrice>= lowerLimit && currentPrice<=higherLimit)
 				   System.out.println(candyElement.getKey());
 		   }
@@ -134,7 +134,7 @@ public class GiftAnalysis {
 		   while(candyIterator.hasNext())
 		   {
 			   Map.Entry candyElement=(Map.Entry)candyIterator.next();
-			   int currentWeight=(int)candyElement.getValue();
+			   int currentWeight=(Integer)candyElement.getValue();
 			   if(currentWeight>= lowerLimit && currentWeight<=higherLimit)
 				   System.out.println(candyElement.getKey());
 		   }
