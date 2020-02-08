@@ -1,17 +1,17 @@
 package Giftepm;
 
 public class Chocolate {
-	int weight ,price;
-	Chocolate(int weight, int price)
+	int w ,p;
+	Chocolate(int w, int p)
 	{
-		this.weight=weight;
-		this.price=price;
+		this.w=w;
+		this.p=p;
 	}
 	public int getPrice() {
-		return price;
+		return p;
 	}
 	public int getWeight() {
-		return weight;
+		return w;
 	}
 
 }
